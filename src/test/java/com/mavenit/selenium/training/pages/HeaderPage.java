@@ -19,6 +19,7 @@ public class HeaderPage extends DriverManager {
         searchItem=item;
         searchTxtBox.sendKeys(item);
         magifierGlass.click();
+        System.out.println(searchTxtBox);
     }
 
     public void emptySearch(){
